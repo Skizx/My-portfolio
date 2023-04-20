@@ -1,0 +1,16 @@
+@import '../../styles/Utils/variables.scss';
+
+.banner-bg {
+    background: url('../../images/slider-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+.banner-block {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+}

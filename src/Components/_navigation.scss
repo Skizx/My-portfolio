@@ -1,0 +1,88 @@
+@import "../styles/Utils/variables.scss";
+
+.main-navbar {
+    background-color: $color_darkgray;
+    color: $color_white;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar-block {
+    justify-content: space-between;
+}
+
+.navbar-title {
+    padding: 10px;
+    font-size: 22px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.navbar-ul {
+    display: flex;
+    flex-direction: row;
+    color: #a9a9a9;
+
+    @media screen and (max-width: 767px) {
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        top: 59px;
+        width: 100%;
+        padding: 1rem;
+        visibility: hidden;
+        background-color: $color_darkgray;
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .show-nav.navbar-ul {
+        background-color: $color_mobilebar;
+        display: flex;
+        left: 0;
+        right: 0;
+        border: 45px solid $color_darkgray;
+        border-top: none;
+        border-top-width: 15px;
+        border-bottom: none;
+        visibility: visible;
+        transition: all 0.5s ease-out;
+    }
+}
+
+.navbar-ul > li {
+    margin: 24px 0;
+    margin-left: 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+
+    &:hover {
+        color: $color_white;
+    }
+
+    @media screen and (max-width: 767px) {
+        margin-left: 0;
+        margin: 12px 0;
+    }
+}
+
+.hamburger {
+    color: inherit;
+    background: transparent;
+    display: none;
+
+    @media screen and (max-width: 767px) {
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        font-size: 22px;
+        height: 35px;
+        position: relative;
+        visibility: visible;
+    }
+}
