@@ -12,14 +12,15 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
-main {
-    min-height: 200vh;
-}
-
 body {
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #363940
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 10px;
+    font-weight: 700;
 }
 
 h2, p {
@@ -31,8 +32,11 @@ a {
     color: inherit;
 }
 
-li {
+header li {
     cursor: pointer;
+}
+
+li {
     list-style: none;
 }
 

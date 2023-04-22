@@ -1,0 +1,14 @@
+@import '../../styles/Utils/variables.scss';
+
+.bg-download {
+    padding: 70px 0 80px;
+    margin-top: 60px;
+    background: $color_cleargray;
+}
+
+.download-btn {
+    margin-top: 30px;
+    background-color: $color_darkgray;
+    color: $color_white;
+    padding: 10px 40px;
+}
