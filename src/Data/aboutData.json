@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "icon": "FaUserSecret",
+        "aboutTitle": "Qui suis-je ?",
+        "aboutText": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Quod ipsum iure eveniet architecto tempora numquam obcaecati harum.Vel tempora dolor non praesentium harum nostrum! Iure pariatur expedita nisi illum dignissimos."
+    },
+    {
+        "id": 2,
+        "icon": "FaQuestion",
+        "aboutTitle": "Ce que je fais ?",
+        "aboutText": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Quod ipsum iure eveniet architecto tempora numquam obcaecati harum.Vel tempora dolor non praesentium harum nostrum! Iure pariatur expedita nisi illum dignissimos."
+    },
+    {
+        "id": 3,
+        "icon": "FaHeart",
+        "aboutTitle": "Pourquoi je le fais ?",
+        "aboutText": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Quod ipsum iure eveniet architecto tempora numquam obcaecati harum.Vel tempora dolor non praesentium harum nostrum! Iure pariatur expedita nisi illum dignissimos."
+    },
+    {
+        "id": 4,
+        "icon": "RxLapTimer",
+        "aboutTitle": "Depuis quand ?",
+        "aboutText": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Quod ipsum iure eveniet architecto tempora numquam obcaecati harum.Vel tempora dolor non praesentium harum nostrum! Iure pariatur expedita nisi illum dignissimos."
+    }
+]
