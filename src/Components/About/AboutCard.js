@@ -17,7 +17,6 @@ const AboutCard = (props) => {
     
     return (
         <>
-        <section id="aboutCard" className='about-bg'>
             <div className='wrapper txt-center'>
             <div className="about-box">
                 <div className="box-container">
@@ -31,7 +30,6 @@ const AboutCard = (props) => {
                 </div>
             </div>
             </div>
-        </section>
         </>
     );
 };

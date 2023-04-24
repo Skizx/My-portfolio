@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "icon": "FaMobileAlt",
+        "serviceTitle": "Développement d'application",
+        "serviceText": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Quod ipsum iure eveniet architecto tempora numquam obcaecati harum.Vel tempora dolor non praesentium harum nostrum! Iure pariatur expedita nisi illum dignissimos."
+    },
+    {
+        "id": 2,
+        "icon": "FaUsers",
+        "serviceTitle": "Accéssibilité",
+        "serviceText": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Quod ipsum iure eveniet architecto tempora numquam obcaecati harum.Vel tempora dolor non praesentium harum nostrum! Iure pariatur expedita nisi illum dignissimos."
+    },
+    {
+        "id": 3,
+        "icon": "FaCloud",
+        "serviceTitle": "Mise en ligne",
+        "serviceText": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Quod ipsum iure eveniet architecto tempora numquam obcaecati harum.Vel tempora dolor non praesentium harum nostrum! Iure pariatur expedita nisi illum dignissimos."
+    },
+    {
+        "id": 4,
+        "icon": "MdIntegrationInstructions",
+        "serviceTitle": "Intégration maquette",
+        "serviceText": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Quod ipsum iure eveniet architecto tempora numquam obcaecati harum.Vel tempora dolor non praesentium harum nostrum! Iure pariatur expedita nisi illum dignissimos."
+    }
+]

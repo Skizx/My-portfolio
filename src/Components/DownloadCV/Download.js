@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import './download.scss';
 
@@ -15,7 +14,7 @@ const Download = () => {
                         quisquam harum similique dicta. Praesentium!</p>
                 </div>
                 <div className="download-btn">
-                    <a href="#">Telecharger</a>
+                <a className="contact-button" href="../../Assets/Civiletti_Kévin_CV_2023.pdf" download>Télécharger mon CV</a>
                 </div>
             </div>
         </section>

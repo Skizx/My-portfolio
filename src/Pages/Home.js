@@ -1,5 +1,6 @@
 import React from 'react';
 import aboutData from '../Data/aboutData.json';
+import serviceData from '../Data/serviceData.json';
 import Banner from '../Components/Banner/Banner';
 import About from '../Components/About/About';
 import Skills from '../Components/Skills/Skills';
@@ -7,12 +8,14 @@ import Download from '../Components/DownloadCV/Download';
 import Services from '../Components/Services/Services';
 import AboutCard from '../Components/About/AboutCard';
 import ServicesCard from '../Components/Services/ServicesCard';
+import Review from '../Components/Review/Review';
 
 const Home = () => {
     return (
         <>
             <Banner />
             <About />
+            <section id="aboutCard" className='about-bg'>
             {aboutData.map((list) => (
                 <AboutCard 
                 key={list.id}
@@ -21,10 +24,21 @@ const Home = () => {
                 aboutText={list.aboutText}
                 />
             ))}
+            </section>
             <Skills />
             <Download />
             <Services />
-            <ServicesCard />
+            <section id="ServicesCard" className='service-bg'>
+            {serviceData.map((res) => (
+                <ServicesCard 
+                key={res.id}
+                icon={res.icon}
+                serviceTitle={res.serviceTitle}
+                serviceText={res.serviceText}
+                />
+            ))}
+            </section>
+            <Review />
         </>
     );
 };
