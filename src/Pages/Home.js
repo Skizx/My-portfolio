@@ -9,6 +9,8 @@ import Services from '../Components/Services/Services';
 import AboutCard from '../Components/About/AboutCard';
 import ServicesCard from '../Components/Services/ServicesCard';
 import Review from '../Components/Review/Review';
+import CreationBlock from '../Components/Création/CreationBlock';
+import Creation from '../Components/Création/Creation';
 
 const Home = () => {
     return (
@@ -39,6 +41,10 @@ const Home = () => {
             ))}
             </section>
             <Review />
+            <Creation />
+            <section id="creationCard" className="creation-block-bg">
+                <CreationBlock />
+            </section>
         </>
     );
 };

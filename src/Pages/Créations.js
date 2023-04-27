@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Création = () => {
+const Créations = () => {
     return (
         <div>
             CREATION
@@ -8,4 +8,4 @@ const Création = () => {
     );
 };
 
-export default Création;
+export default Créations;
