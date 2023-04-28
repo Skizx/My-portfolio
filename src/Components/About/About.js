@@ -4,7 +4,7 @@ import './about.scss';
 const About = () => {
     return (
         <>
-        <section id="about" className="about-bg">
+        <section id="about" className="abouts-bg">
             <div className="wrapper txt-center">
                 <h3>A propos</h3>
                 <div className="underimage"></div>

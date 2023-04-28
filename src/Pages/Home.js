@@ -17,7 +17,7 @@ const Home = () => {
         <>
             <Banner />
             <About />
-            <section id="aboutCard" className='about-bg'>
+            <section id="aboutCard" className='about-bg wrapper'>
             {aboutData.map((list) => (
                 <AboutCard 
                 key={list.id}
@@ -30,7 +30,7 @@ const Home = () => {
             <Skills />
             <Download />
             <Services />
-            <section id="ServicesCard" className='service-bg'>
+            <section id="ServicesCard" className='service-bg wrapper'>
             {serviceData.map((res) => (
                 <ServicesCard 
                 key={res.id}
@@ -42,7 +42,7 @@ const Home = () => {
             </section>
             <Review />
             <Creation />
-            <section id="creationCard" className="creation-block-bg">
+            <section id="creationCard" className="creation-block-bg wrapper">
                 <CreationBlock />
             </section>
         </>

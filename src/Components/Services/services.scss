@@ -2,4 +2,15 @@
 
 .services-bg {
     padding-top: 30px;
+
+    @media screen and (min-width:1200px) {
+        padding-top: 120px;
+    }
+}
+
+.service-bg {
+    padding-top: 30px;
+    @media screen and (min-width:992px) {
+            display: flex;
+}
 }
