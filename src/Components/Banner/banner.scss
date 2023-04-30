@@ -1,9 +1,11 @@
 @import '../../styles/Utils/variables.scss';
 
 .banner-bg {
-    background: url('../../images/slider-bg.jpg');
+    background: url('../../images/pexels-johannes-plenio-1632788.jpg');
     background-position: center;
     background-size: cover;
+    background-blend-mode: darken;
+    background-color: $color_mobilebar;
     min-height: 100vh;
     position: relative;
     margin-bottom: 60px;

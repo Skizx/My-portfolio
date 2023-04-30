@@ -1,16 +1,14 @@
 import React from 'react';
 import './about.scss';
 
-const About = () => {
+const About = (props) => {
     return (
         <>
-        <section id="about" className="abouts-bg">
             <div className="wrapper txt-center">
-                <h3>A propos</h3>
+                <h3>{props.deviderTitle}</h3>
                 <div className="underimage"></div>
-                <p>informations</p>
-            </div>
-        </section> 
+                <p>{props.deviderText}</p>
+            </div> 
         </>
     );
 };

@@ -1,5 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-/* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react';
 import './banner.scss';
 
@@ -12,7 +10,7 @@ const Banner = () => {
                     <h2>I'm Kévin</h2>
                     <p>Développeur Web</p>
                     <div className="banner-button">
-                        <a href="#" download role='button'>View More!</a>
+                        <a href="#about" role='button'>View More!</a>
                     </div>
                 </div>
             </div>

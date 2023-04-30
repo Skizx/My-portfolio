@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
+import './services.scss';
 import { FaUsers, FaMobileAlt, FaCloud } from 'react-icons/fa';
 import { MdIntegrationInstructions } from 'react-icons/md';
 

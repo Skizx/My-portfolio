@@ -81,7 +81,8 @@ section p {
 
 @media screen and (min-width:992px) {
     .box-info {
-        padding-left: 20px;
+        text-align: left;
+        padding-left: 60px;
     }
 }
 
@@ -89,7 +90,6 @@ section p {
     padding: 0 10px;
 
     @media screen and (min-width:992px) {
-        text-align: left;
         padding: 0;
     }
 }

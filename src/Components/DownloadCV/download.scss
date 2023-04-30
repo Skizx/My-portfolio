@@ -8,7 +8,11 @@
 
 .download-btn {
     margin-top: 30px;
-    background-color: $color_darkgray;
     color: $color_white;
+    padding: 10px 40px;
+}
+
+.contact-button {
+    background-color: $color_darkgray;
     padding: 10px 40px;
 }

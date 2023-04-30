@@ -22,10 +22,21 @@ const Navigation = () => {
                         </div>
                         <div className='navbar-list'>
                             <ul className={`navbar-ul ${mobileMenu ? "show-nav" : "hide-nav"}`}>
-                                <li>Home</li>
-                                <li>Contact</li>
-                                <li>A propos</li>
-                                <li>Réalisation</li>
+                                <a href="#header">
+                                    <li>Home</li>
+                                </a>
+                                <a href="#about">
+                                    <li>A propos</li>
+                                </a>
+                                <a href="#services">
+                                    <li>Services</li>
+                                </a>
+                                <a href="#creation">
+                                    <li>Réalisations</li>
+                                </a>
+                                <a href="mailto:k.civiletti.gj@gmail.com">
+                                    <li>Contact</li>
+                                </a>
                             </ul>
                         </div>
                         <div className="hamburger" onClick={handlemobileMenu}>
