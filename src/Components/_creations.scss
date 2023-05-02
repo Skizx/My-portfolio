@@ -1,0 +1,11 @@
+@import '../styles/Utils/variables.scss';
+
+.creation-banner {
+    padding-top: 100px;
+}
+
+.creation-banner img {
+    width: 100%;
+    border: 1px solid $color_mobilebar;
+    border-radius: 25px;
+}

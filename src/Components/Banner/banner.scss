@@ -1,7 +1,7 @@
 @import '../../styles/Utils/variables.scss';
 
 .banner-bg {
-    background: url('../../images/pexels-johannes-plenio-1632788.jpg');
+    background: url('../../images/r0m0_4-rMN5wSMI69Y-unsplash.jpg');
     background-position: center;
     background-size: cover;
     background-blend-mode: darken;
@@ -18,16 +18,24 @@
     flex-direction: column;
     position: absolute;
     height: 100%;
+    letter-spacing: 2px;
 }
 
 section h2 {
     font-size: 32px;
     text-transform: uppercase;
+
+    @media screen and (min-width:992px) {
+    font-size: 48px;
+}
 }
 
 section p {
     font-size: 16px;
-    letter-spacing: 2px;
+
+    @media screen and (min-width:992px) {
+        font-size: 22px;
+    }
 }
 
 .banner-button {

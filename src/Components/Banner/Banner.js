@@ -7,7 +7,7 @@ const Banner = () => {
         <section id='banner' className='banner-bg'>
             <div className='wrapper txt-white flex-center_content'>
                 <div className="banner-block">
-                    <h2>I'm Kévin</h2>
+                    <h2>Civiletti Kevin</h2>
                     <p>Développeur Web</p>
                     <div className="banner-button">
                         <a href="#about" role='button'>View More!</a>
