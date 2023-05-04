@@ -3,48 +3,104 @@
         "id": "c67ab8a7",
         "title": "Kanap",
         "picture": "/images/127.0.0.1_5500_front_html_index.html.png",
-        "description": "Lorem ipsum...................................."
+        "stacks": [
+            "HTML",
+            "CSS",
+            "Javascript"
+        ],
+        "description": "Kanap est un site e-commerce construit avec Javascript, HTML et CSS, il permet aux utilisateurs de selectionner leur articles, les ajouters à leur panier, modifier les articles présent dans le panier et ainsi pouvoir passer commande."
     },
     {
         "id": "c67ab8a8",
         "title": "Kasa",
         "picture": "/images/skizxkasa.netlify.app_.png",
-        "description": "Lorem ipsum...................................."
+        "stacks": [
+            "HTML",
+            "CSS",
+            "Scss",
+            "Javascript",
+            "React"
+        ],
+        "description": "Kasa est une application Web de location immobilière single page crée avec React, HTML et Sass, cette application permet aux utilisateurs de voir les différents logements de particulier qui sont postées chaque jour avec une simulation du backend dans le fichier JSON contenant les 20 dernières annonces ainsi qu'une déscription détaillé de chaque logements/hôte."
     },
     {
         "id": "c67ab8a9",
         "title": "Booki",
         "picture": "/images/skizxbooki.netlify.app_.png",
-        "description": "Lorem ipsum...................................."
+        "stacks": [
+            "HTML",
+            "CSS"
+        ],
+        "description": "Booki est un site internet developper avec HTML et CSS, il permet aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix."
     },
     {
         "id": "c67ab8a1",
         "title": "Kinomap",
         "picture": "/images/localhost_4200_.png",
-        "description": "Lorem ipsum...................................."
+        "stacks": [
+            "HTML",
+            "CSS",
+            "Scss",
+            "Typescript",
+            "Angular",
+            "API"
+        ],
+        "description": "Kinomap est la plus grande plate-forme de partage de vidéo géo-localisé. Ici la réalisation d'une Homepage avec Angular, Typescrit et Sass permettant aux utilisateurs de voir les cartes/prix au mois, à l'année ou bien à vie ainsi que la note de l'application ou bien la FAQ."
     },
     {
         "id": "c67ab8a2",
         "title": "Ohmyfood",
         "picture": "/images/skizxohmyfood.netlify.app_pages_la-palette-du-gout.png",
-        "description": "Lorem ipsum...................................."
+        "stacks": [
+            "HTML",
+            "CSS",
+            "Scss"
+        ],
+        "description": "Ohmyfood est un site internet developper avec HTML et Sass avec animations CSS, il permet aux utilisateurs de composer leur propre menu et réduire leur temps d'attente dans les réstaurants car leur menu est préparé à l'avance."
     },
     {
         "id": "c67ab8a3",
         "title": "La panthère",
         "picture": "/images/skizxpanthere.netlify.app_.png",
-        "description": "Lorem ipsum...................................."
+        "stacks": [
+            "HTML",
+            "CSS",
+            "Accéssibilité",
+            "Optimisation",
+            "Référencement"
+        ],
+        "description": "La panthère est une agence de web design en perte de vitesse ou il etait demander une Analyse de l'état actuel de SEO du site fourni, une amélioration du SEO du site ainsi que son optimisation et son accèssibilité pour permettre à l'agence d'apparaître en première page des moteurs de recherches."
     },
     {
         "id": "c67ab8a4",
         "title": "Hot takes",
         "picture": "/images/localhost_4200_login.png",
-        "description": "Lorem ipsum...................................."
+        "stacks": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Node",
+            "Express",
+            "MongoDB",
+            "API"
+        ],
+        "description": "Hot-Takes est une application d'avis gastronomiques construit avec Node.js, Express.js et MongoDB, il permet aux utilisateurs créer un compte, se connecter, mettre en ligne leur articles, les likés/dislikés et consulter l'ensemble des articles mis en ligne."
     },
     {
         "id": "c67ab8a5",
         "title": "Lincuicuit",
         "picture": "/images/localhost_3001_profil.png",
-        "description": "Lorem ipsum...................................."
+        "stacks": [
+            "HTML",
+            "CSS",
+            "Scss",
+            "Javascript",
+            "Node",
+            "Express",
+            "MongoDB",
+            "React",
+            "Redux"
+        ],
+        "description": "Lincuicuit est un réseau social (En cours de développement) avec React.js, HTML et Sass pour le frontend et Node.js, Express.js, MongoDB pour la partie backend, il va permettre aux utilisateurs de pouvoir communiquer entre eux, partager leurs avis, photos, videos ainsi qu'avoir des recommandations d'autres utilisateurs."
     }
 ]
