@@ -1,4 +1,5 @@
 import React from 'react';
+import Fade from 'react-reveal/Fade';
 import aboutData from '../Data/aboutData.json';
 import serviceData from '../Data/serviceData.json';
 import Banner from '../Components/Banner/Banner';
@@ -15,15 +16,18 @@ const Home = () => {
     return (
         <>
             <Banner />
-            <section id="about" className="abouts-bg">
-            {deviderData.map((item, index) => (
-            <About
-            key={index}
-            deviderTitle={item.deviderTitle}
-            deviderText={item.deviderText}
-            />
-            ))}
-            </section>
+            <Fade right>
+                <section id="about" className="abouts-bg">
+                {deviderData.map((item, index) => (
+                <About
+                key={index}
+                deviderTitle={item.deviderTitle}
+                deviderText={item.deviderText}
+                />
+                ))}
+                </section>
+                </Fade>
+                <Fade left>
             <section id="aboutCard" className='about-bg wrapper'>
             {aboutData.map((list) => (
                 <AboutCard 
@@ -32,16 +36,22 @@ const Home = () => {
                 aboutTitle={list.aboutTitle}
                 aboutText={list.aboutText}
                 />
-            ))}
+                ))}
             </section>
+                </Fade>
+                <Fade top>
             <Skills />
+                </Fade>
             <Download />
+            <Fade right>
             <section id="services" className="services-bg">
             <About
             deviderTitle= ' Services '
             deviderText= ' Ce que je vous propose '
             /> 
             </section>
+            </Fade>
+            <Fade left>
             <section id="ServicesCard" className='service-bg wrapper'>
             {serviceData.map((res) => (
                 <ServicesCard 
@@ -52,16 +62,23 @@ const Home = () => {
                 />
             ))}
             </section>
+            </Fade>
+            <Fade right>
             <Review />
+            </Fade>
+            <Fade right>
             <section id="creation" className="creation-bg">
             <About
             deviderTitle= ' Créations '
             deviderText= " Ce que j'ai réaliser "
             />
             </section>
+            </Fade>
+            <Fade bottom>
             <section id="creationCard" className="creation-block-bg wrapper">
                 <CreationBlock />
             </section>
+            </Fade>
         </>
     );
 };

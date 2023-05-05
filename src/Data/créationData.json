@@ -8,7 +8,7 @@
             "CSS",
             "Javascript"
         ],
-        "description": "Kanap est un site e-commerce construit avec Javascript, HTML et CSS, il permet aux utilisateurs de selectionner leur articles, les ajouters à leur panier, modifier les articles présent dans le panier et ainsi pouvoir passer commande."
+        "description": "Mon client est Kanap, une marque de canapés qui vend ses produits depuis sa boutique exclusivement. Aujourd’hui, celle-ci souhaiterait avoir une plateforme de e-commerce en plus de sa boutique physique pour vendre ses produits sur Internet. J'ai mis en place 4 pages : page d’accueil, page Produit, page Panier et la page Confirmation."
     },
     {
         "id": "c67ab8a8",
@@ -21,7 +21,7 @@
             "Javascript",
             "React"
         ],
-        "description": "Kasa est une application Web de location immobilière single page crée avec React, HTML et Sass, cette application permet aux utilisateurs de voir les différents logements de particulier qui sont postées chaque jour avec une simulation du backend dans le fichier JSON contenant les 20 dernières annonces ainsi qu'une déscription détaillé de chaque logements/hôte."
+        "description": "Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France."
     },
     {
         "id": "c67ab8a9",
@@ -31,7 +31,7 @@
             "HTML",
             "CSS"
         ],
-        "description": "Booki est un site internet developper avec HTML et CSS, il permet aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix."
+        "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS. Booki est un site internet permettant aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix."
     },
     {
         "id": "c67ab8a1",
@@ -56,7 +56,7 @@
             "CSS",
             "Scss"
         ],
-        "description": "Ohmyfood est un site internet developper avec HTML et Sass avec animations CSS, il permet aux utilisateurs de composer leur propre menu et réduire leur temps d'attente dans les réstaurants car leur menu est préparé à l'avance."
+        "description": "Il s’agit d’une jeune startup qui voudrait s'imposer sur le marché de la restauration. Déjà présente à New-York, elle souhaite désormais faire sa place à Paris. Ma mission est de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée. Finis, les temps d'attente au restaurant !"
     },
     {
         "id": "c67ab8a3",
@@ -69,7 +69,7 @@
             "Optimisation",
             "Référencement"
         ],
-        "description": "La panthère est une agence de web design en perte de vitesse ou il etait demander une Analyse de l'état actuel de SEO du site fourni, une amélioration du SEO du site ainsi que son optimisation et son accèssibilité pour permettre à l'agence d'apparaître en première page des moteurs de recherches."
+        "description": " l'agence La Panthère, une grande agence de web design basée à Lyon. L’activité de l’entreprise a bien démarré mais aujourd’hui, elle est en perte de vitesse. Eh oui, la concurrence est rude. j'ai donc analyser de l’état actuel de SEO du site fourni et indiquer les parties du site qui ne sont pas optimisées pour le SEO et/ou qui ne sont pas à jour en termes d’accessibilité ensuite j'ai optimiser le site pour finir par faire un rapport avec une comparaison des résultats."
     },
     {
         "id": "c67ab8a4",
@@ -84,7 +84,7 @@
             "MongoDB",
             "API"
         ],
-        "description": "Hot-Takes est une application d'avis gastronomiques construit avec Node.js, Express.js et MongoDB, il permet aux utilisateurs créer un compte, se connecter, mettre en ligne leur articles, les likés/dislikés et consulter l'ensemble des articles mis en ligne."
+        "description": "Les sauces piquantes sont de plus en plus populaires, en grande partie grâce à la série YouTube « Hot Ones » . C’est pourquoi ce nouveau client, la marque de condiments à base de piment Piiquante, veut développer une application web de critique des sauces piquantes appelée « Hot Takes »."
     },
     {
         "id": "c67ab8a5",

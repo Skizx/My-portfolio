@@ -3,24 +3,24 @@
         "id": 1,
         "icon": "FaUserSecret",
         "aboutTitle": "Qui suis-je ?",
-        "aboutText": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Quod ipsum iure eveniet architecto tempora numquam obcaecati harum.Vel tempora dolor non praesentium harum nostrum! Iure pariatur expedita nisi illum dignissimos."
+        "aboutText": "Je m'appelle Kevin, 27 ans, habitant des Haut-de-France. J'ai comme passion le code (évidemment) mais aussi l'univers fantastique ex: Lotr, Le Hobbit, Star Wars etc... Ainsi que le Football."
     },
     {
         "id": 2,
         "icon": "FaQuestion",
         "aboutTitle": "Ce que je fais ?",
-        "aboutText": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Quod ipsum iure eveniet architecto tempora numquam obcaecati harum.Vel tempora dolor non praesentium harum nostrum! Iure pariatur expedita nisi illum dignissimos."
+        "aboutText": "Je suis actuellement en recherche d'emplois dans le milieu du développement web, autrement je crée/intégre vos sites web et applications (site vitrine, e-commerce etc...)."
     },
     {
         "id": 3,
         "icon": "FaHeart",
         "aboutTitle": "Pourquoi je le fais ?",
-        "aboutText": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Quod ipsum iure eveniet architecto tempora numquam obcaecati harum.Vel tempora dolor non praesentium harum nostrum! Iure pariatur expedita nisi illum dignissimos."
+        "aboutText": "Tout simplement parce que je trouve ce milieu passionnant, en perpétuelle évolution. Avoir la possibilité de créer, de rendre visibles vos envies ainsi que vos besoins."
     },
     {
         "id": 4,
         "icon": "RxLapTimer",
         "aboutTitle": "Depuis quand ?",
-        "aboutText": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Quod ipsum iure eveniet architecto tempora numquam obcaecati harum.Vel tempora dolor non praesentium harum nostrum! Iure pariatur expedita nisi illum dignissimos."
+        "aboutText": "J'ai commencé ma formation chez Openclassroom le 15 Juin 2022. Pendant 6 mois, j'ai suivi une formation de développeur web en ligne, qui m'a permis d'apprendre les fondamentaux du développement web."
     }
 ]

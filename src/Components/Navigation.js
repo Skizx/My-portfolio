@@ -22,16 +22,16 @@ const Navigation = () => {
                         </div>
                         <div className='navbar-list'>
                             <ul className={`navbar-ul ${mobileMenu ? "show-nav" : "hide-nav"}`}>
-                                <a href="#header">
+                                <a href="/#header">
                                     <li>Home</li>
                                 </a>
-                                <a href="#about">
+                                <a href="/#about">
                                     <li>A propos</li>
                                 </a>
-                                <a href="#services">
+                                <a href="/#services">
                                     <li>Services</li>
                                 </a>
-                                <a href="#creation">
+                                <a href="/#creation">
                                     <li>Réalisations</li>
                                 </a>
                                 <a href="mailto:k.civiletti.gj@gmail.com">
