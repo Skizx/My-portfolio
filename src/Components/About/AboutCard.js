@@ -17,7 +17,7 @@ const AboutCard = (props) => {
     
     return (
         <>
-            <div className='txt-center'>
+            <div className='txt-center split'>
             <div className="about-box">
                 <div className="box-container">
                 <span className='about-box_icon'>

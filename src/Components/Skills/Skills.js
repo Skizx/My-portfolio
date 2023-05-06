@@ -6,7 +6,7 @@ const Skills = () => {
         <>
         <section id="skills" className='bg-skills'>
             <div className="wrapper txt-center">
-            <h4 className='skill-title'>Compétences technique</h4>
+            <h4 className='skill-title'>Compétences techniques</h4>
             <ul className='skill-list'>
                 <li>Intégration web</li>
                 <li>HTML/CSS</li>

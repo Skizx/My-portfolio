@@ -3,24 +3,24 @@
         "id": 1,
         "icon": "FaMobileAlt",
         "serviceTitle": "Développement d'application",
-        "serviceText": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Quod ipsum iure eveniet architecto tempora numquam obcaecati harum.Vel tempora dolor non praesentium harum nostrum! Iure pariatur expedita nisi illum dignissimos."
+        "serviceText": "Vous souhaitez une application d'évaluation pour vos produits, une boutique en ligne donnant la possibilité a vos utilisateurs d'interagir avec le contenu proposé, c'est ici !"
     },
     {
         "id": 2,
         "icon": "FaUsers",
-        "serviceTitle": "Accéssibilité",
-        "serviceText": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Quod ipsum iure eveniet architecto tempora numquam obcaecati harum.Vel tempora dolor non praesentium harum nostrum! Iure pariatur expedita nisi illum dignissimos."
+        "serviceTitle": "Accessibilité",
+        "serviceText": "Vous souhaitez augmenter la visibilité de votre site, vous assurez qu'il sera accessible a tous ainsi qu'une optimisation de son contenu ou bien simplement une analyse de son état actuel, n'hésitez pas !"
     },
     {
         "id": 3,
         "icon": "FaCloud",
         "serviceTitle": "Mise en ligne",
-        "serviceText": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Quod ipsum iure eveniet architecto tempora numquam obcaecati harum.Vel tempora dolor non praesentium harum nostrum! Iure pariatur expedita nisi illum dignissimos."
+        "serviceText": "Avoir un beau projet, c'est bien, le rendre accessible via Internet, c'est mieux ! Vous souhaitez mettre en ligne votre site web, je peux vous aider !"
     },
     {
         "id": 4,
         "icon": "MdIntegrationInstructions",
         "serviceTitle": "Intégration maquette",
-        "serviceText": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Quod ipsum iure eveniet architecto tempora numquam obcaecati harum.Vel tempora dolor non praesentium harum nostrum! Iure pariatur expedita nisi illum dignissimos."
+        "serviceText": "Vous avez une idée, un rendu papier, une maquette. Laissez-moi les utiliser, les intégrés pour qu'elles deviennent réalité !"
     }
 ]

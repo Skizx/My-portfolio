@@ -11,9 +11,7 @@ const Review = () => {
                     <div className="underimage"></div>
                     <p>informations</p>
                     <div className="review-block">
-                        <p className="review-txt">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        Accusantium velit aut totam qui inventore corrupti accusamus. Quam recusandae,
-                        impedit nesciunt aut modi autem earum explicabo rem dolores facilis perferendis fuga?</p>
+                        <p className="review-txt">Votre avis compte ! Soyez l'un des permiers a faire un retour</p>
                     </div>
             </div>
             </div>
