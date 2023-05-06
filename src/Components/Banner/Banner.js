@@ -10,7 +10,7 @@ const Banner = () => {
                     <h2>Civiletti Kevin</h2>
                     <p>Développeur Web</p>
                     <div className="banner-button">
-                        <a href="#about" role='button'>View More!</a>
+                        <a href="#about" role='button'>Voir Plus!</a>
                     </div>
                 </div>
             </div>

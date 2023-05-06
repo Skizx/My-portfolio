@@ -9,7 +9,10 @@
 .download-btn {
     margin-top: 30px;
     color: $color_white;
-    padding: 10px 40px;
+    
+    @media screen and (min-width: 992px) {
+        padding: 10px 40px;
+    }
 }
 
 .contact-button {
