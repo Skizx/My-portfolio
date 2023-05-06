@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { FaBars } from 'react-icons/fa'
 import { Link } from 'react-router-dom';
 import "./_navigation.scss"
 
@@ -40,7 +41,7 @@ const Navigation = () => {
                             </ul>
                         </div>
                         <div className="hamburger" onClick={handlemobileMenu}>
-                                <i className="fa-solid fa-bars"></i>
+                                <FaBars />
                         </div>
                     </div>
                 </div>
