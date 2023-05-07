@@ -31,10 +31,10 @@
 .dropdown-container {
     margin-top: 60px;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
+    min-height: 50vh;
     @media screen and (min-width:992px) {
         margin-top: 120px;
     }
