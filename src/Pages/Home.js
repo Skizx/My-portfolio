@@ -1,5 +1,5 @@
 import React from 'react';
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal";
 import aboutData from '../Data/aboutData.json';
 import serviceData from '../Data/serviceData.json';
 import Banner from '../Components/Banner/Banner';
@@ -16,7 +16,7 @@ const Home = () => {
     return (
         <>
             <Banner />
-            <Fade right>
+            <Fade direction='right'>
                 <section id="about" className="abouts-bg">
                 {deviderData.map((item, index) => (
                 <About
@@ -27,7 +27,7 @@ const Home = () => {
                 ))}
                 </section>
                 </Fade>
-                <Fade left>
+                <Fade direction='left'>
             <section id="aboutCard" className='about-bg wrapper'>
             {aboutData.map((list) => (
                 <AboutCard 
@@ -39,11 +39,11 @@ const Home = () => {
                 ))}
             </section>
                 </Fade>
-                <Fade top>
+                <Fade direction='top'>
             <Skills />
                 </Fade>
             <Download />
-            <Fade right>
+            <Fade direction='right'>
             <section id="services" className="services-bg">
             <About
             deviderTitle= ' Services '
@@ -51,7 +51,7 @@ const Home = () => {
             /> 
             </section>
             </Fade>
-            <Fade left>
+            <Fade direction='left'>
             <section id="ServicesCard" className='service-bg wrapper'>
             {serviceData.map((res) => (
                 <ServicesCard 
@@ -63,10 +63,10 @@ const Home = () => {
             ))}
             </section>
             </Fade>
-            <Fade right>
+            <Fade direction='right'>
             <Review />
             </Fade>
-            <Fade right>
+            <Fade direction='right'>
             <section id="creation" className="creation-bg">
             <About
             deviderTitle= ' Créations '
@@ -74,7 +74,7 @@ const Home = () => {
             />
             </section>
             </Fade>
-            <Fade bottom>
+            <Fade direction='bottom'>
             <section id="creationCard" className="creation-block-bg wrapper">
                 <CreationBlock />
             </section>
