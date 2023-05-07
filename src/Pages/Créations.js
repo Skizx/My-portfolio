@@ -12,7 +12,14 @@ const Créations = () => {
     const [creation, setCreation] = useState();
     const [isOpen, setIsOpen] = useState(false);
 
+    
+
     useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+          });
         const oneCreation = creationData.find((item) => item.id === id)
         setCreation(oneCreation)
     }, [id])
@@ -28,13 +35,13 @@ const Créations = () => {
                     <img src={creation.picture} alt={creation.title}/>
                 </figure>
             </div>
-                <section id='titledescription' className='description-container'>
+                <section className='description-container'>
                 <About 
                 deviderTitle= ' Description '
                 deviderText= ' Ce que le client demande'
                 />        
                 </section>
-                <section id="description" className="description-block">
+                <section className="description-block">
                     <div className="wrapper">
                     <p>{creation.description}</p>
                     <div className="txt-center dropdown-container">
