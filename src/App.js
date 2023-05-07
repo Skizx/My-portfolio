@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
-import './App.css';
+import './styles/style.scss';
 import Home from './Pages/Home';
 import Créations from './Pages/Créations';
 import Error from './Pages/Error';
@@ -8,7 +8,7 @@ import Footer from './Components/Footer';
 
 function App() {
   return (
-    <div>
+    <div className='hidden'>
       <header id='header'>
       <Navigation />
       </header>
