@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { FaBars } from 'react-icons/fa'
 import { Link } from 'react-router-dom';
 import "./_navigation.scss"
@@ -10,6 +10,16 @@ const Navigation = () => {
     const handlemobileMenu = () => {
         setMobileMenu(!mobileMenu)
     }
+
+    useEffect(() => {
+        const navigationLinks = document.querySelectorAll('.navbar-list a');
+
+        navigationLinks.forEach((link) => {
+            link.addEventListener('click', () => {
+                setMobileMenu(false);
+            });
+        });
+    }, []);
 
     return (
         <>

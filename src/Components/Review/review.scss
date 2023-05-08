@@ -1,11 +1,10 @@
 @import '../../styles/Utils/variables.scss';
 
 .review-bg {
-    background: url('../../images/testimonial-bg.jpg');
-    background-position: center;
-    background-blend-mode: difference;
+    background: url('../../images/pexels-jep-gambardella-7690080.jpg');
+    background-blend-mode: soft-light;
     background-size: cover;
-    background-color: $color_cleargray;
+    background-color: #674204;
     margin: 60px 0;
 
     @media screen and (min-width: 992px) {
