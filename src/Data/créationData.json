@@ -11,6 +11,20 @@
         "description": "Mon client est Kanap, une marque de canapés qui vend ses produits depuis sa boutique exclusivement. Aujourd’hui, celle-ci souhaiterait avoir une plateforme de e-commerce en plus de sa boutique physique pour vendre ses produits sur Internet. J'ai mis en place 4 pages : page d’accueil, page Produit, page Panier et la page Confirmation."
     },
     {
+        "id" : "d67ab8a1",
+        "title" : "Stephstyle Coiffure",
+        "picture" : "/images/stephstylecoiffure.fr.png",
+        "stacks" : [
+            "HTML",
+            "CSS",
+            "Scss",
+            "Javascript",
+            "React",
+            "Librairies react"
+        ],
+        "description" : "Stephstyle Coiffure est un site de coiffure pour particulier, permettant à l'utilisateur de contacter son coiffeur via un formulaire de contact, de visualiser les tarifs selon les coiffures mais aussi de profiter d'une galerie photo."
+    },
+    {
         "id": "c67ab8a8",
         "title": "Kasa",
         "picture": "/images/skizxkasa.netlify.app_.png",
